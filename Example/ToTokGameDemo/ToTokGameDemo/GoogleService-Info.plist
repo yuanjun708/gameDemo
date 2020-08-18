@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>856117485626-3utnceqfesoq8sd5t024shq0b7g1518a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.856117485626-3utnceqfesoq8sd5t024shq0b7g1518a</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>856117485626-etvn9t0k4dohal7ufrj7n1cldtd8a9p9.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBGEpYt5gGG0JBxQoioDidGsPmkN6GZKVg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>856117485626</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.totok.game.puptown</string>
+	<key>PROJECT_ID</key>
+	<string>com-totok-game-sdktest</string>
+	<key>STORAGE_BUCKET</key>
+	<string>com-totok-game-sdktest.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:856117485626:ios:7ee65ef904d96fb8a09503</string>
+	<key>DATABASE_URL</key>
+	<string>https://com-totok-game-sdktest.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,1 @@
+../../../TTkGameLite/SDK/TTkGameLite/SocialLibraries/TTGCTapjoy/TTGCTapjoy.h
