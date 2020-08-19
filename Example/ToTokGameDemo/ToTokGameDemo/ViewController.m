@@ -18,6 +18,7 @@
 #import "ShareViewController.h"
 #import "AboutViewController.h"
 #import "LoginViewController.h"
+#import "TrackerViewController.h"
 
 
 @interface ViewController ()
@@ -117,6 +118,11 @@
 
 - (IBAction)about:(id)sender {
     AboutViewController *vc = [[AboutViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)track:(id)sender {
+    TrackerViewController *vc = [[TrackerViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

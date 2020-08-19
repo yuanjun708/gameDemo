@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0D0ABD7292051D6227C56354 /* Pods_TTkGameLiteDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF160AD095BE7DA2EE9251F /* Pods_TTkGameLiteDemo.framework */; };
+		212A875C24ECC2C2009A81BC /* TrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212A875A24ECC2C1009A81BC /* TrackerViewController.xib */; };
+		212A875D24ECC2C2009A81BC /* TrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A875B24ECC2C1009A81BC /* TrackerViewController.m */; };
 		21439BDF2488977200A429B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21439BDE2488977200A429B9 /* AppDelegate.m */; };
 		21439BE52488977200A429B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21439BE42488977200A429B9 /* ViewController.m */; };
 		21439BE82488977200A429B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21439BE62488977200A429B9 /* Main.storyboard */; };
@@ -42,6 +44,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		212A875924ECC2C1009A81BC /* TrackerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerViewController.h; sourceTree = "<group>"; };
+		212A875A24ECC2C1009A81BC /* TrackerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackerViewController.xib; sourceTree = "<group>"; };
+		212A875B24ECC2C1009A81BC /* TrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerViewController.m; sourceTree = "<group>"; };
 		21439BDA2488977200A429B9 /* TTkGameLiteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTkGameLiteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21439BDD2488977200A429B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		21439BDE2488977200A429B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +119,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212A875824ECC2C1009A81BC /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				212A875924ECC2C1009A81BC /* TrackerViewController.h */,
+				212A875B24ECC2C1009A81BC /* TrackerViewController.m */,
+				212A875A24ECC2C1009A81BC /* TrackerViewController.xib */,
+			);
+			path = Tracker;
+			sourceTree = "<group>";
+		};
 		21439BD12488977200A429B9 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +150,7 @@
 		21439BDC2488977200A429B9 /* TTkGameLiteDemo */ = {
 			isa = PBXGroup;
 			children = (
+				212A875824ECC2C1009A81BC /* Tracker */,
 				21439BFC24889D2C00A429B9 /* TTGCProgressHUD */,
 				21439C0924889D2C00A429B9 /* About */,
 				21439C0D24889D2C00A429B9 /* Base */,
@@ -344,6 +360,7 @@
 				21439C4624889D2D00A429B9 /* FriendsListViewController.xib in Resources */,
 				21439C4C24889D2D00A429B9 /* DevSettingViewController.xib in Resources */,
 				21439C3D24889D2D00A429B9 /* AboutViewController.xib in Resources */,
+				212A875C24ECC2C2009A81BC /* TrackerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +433,7 @@
 				21439C3824889D2D00A429B9 /* TTGCIndefiniteAnimatedView.m in Sources */,
 				21439C3E24889D2D00A429B9 /* BaseViewController.m in Sources */,
 				21439C4524889D2D00A429B9 /* FriendsListViewController.m in Sources */,
+				212A875D24ECC2C2009A81BC /* TrackerViewController.m in Sources */,
 				21439C4224889D2D00A429B9 /* ShareViewController.m in Sources */,
 				21439BE52488977200A429B9 /* ViewController.m in Sources */,
 				21439C3C24889D2D00A429B9 /* AboutViewController.m in Sources */,

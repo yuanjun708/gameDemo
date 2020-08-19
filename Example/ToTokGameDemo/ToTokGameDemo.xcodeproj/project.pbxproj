@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		212A875624ECBF32009A81BC /* TrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212A875424ECBF32009A81BC /* TrackerViewController.xib */; };
+		212A875724ECBF32009A81BC /* TrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A875524ECBF32009A81BC /* TrackerViewController.m */; };
 		21902F1D24A840B70050AFFA /* FriendsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21902F1824A840B70050AFFA /* FriendsListViewController.m */; };
 		21902F1E24A840B70050AFFA /* FriendsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21902F1924A840B70050AFFA /* FriendsListViewController.xib */; };
 		21902F1F24A840B70050AFFA /* FriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21902F1A24A840B70050AFFA /* FriendTableViewCell.m */; };
@@ -38,6 +40,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		212A875324ECBF32009A81BC /* TrackerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerViewController.h; sourceTree = "<group>"; };
+		212A875424ECBF32009A81BC /* TrackerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackerViewController.xib; sourceTree = "<group>"; };
+		212A875524ECBF32009A81BC /* TrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerViewController.m; sourceTree = "<group>"; };
 		21902F1724A840B70050AFFA /* FriendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableViewCell.h; sourceTree = "<group>"; };
 		21902F1824A840B70050AFFA /* FriendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsListViewController.m; sourceTree = "<group>"; };
 		21902F1924A840B70050AFFA /* FriendsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsListViewController.xib; sourceTree = "<group>"; };
@@ -101,6 +106,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212A875224ECBF32009A81BC /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				212A875324ECBF32009A81BC /* TrackerViewController.h */,
+				212A875524ECBF32009A81BC /* TrackerViewController.m */,
+				212A875424ECBF32009A81BC /* TrackerViewController.xib */,
+			);
+			path = Tracker;
+			sourceTree = "<group>";
+		};
 		21902F1624A840B70050AFFA /* Friends */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +171,7 @@
 		21FD5E53243C734B000989C2 /* ToTokGameDemo */ = {
 			isa = PBXGroup;
 			children = (
+				212A875224ECBF32009A81BC /* Tracker */,
 				21902F2124A842150050AFFA /* Base */,
 				21902F1624A840B70050AFFA /* Friends */,
 				21FD5E70243C74BE000989C2 /* ToTokGameDemo.entitlements */,
@@ -320,6 +336,7 @@
 				21902F1E24A840B70050AFFA /* FriendsListViewController.xib in Resources */,
 				21FD5E84243C8924000989C2 /* AboutViewController.xib in Resources */,
 				21FD5E5F243C734B000989C2 /* Main.storyboard in Resources */,
+				212A875624ECBF32009A81BC /* TrackerViewController.xib in Resources */,
 				21C2A2F4244D8762006F1F88 /* LoginViewController.xib in Resources */,
 				21902F2024A840B70050AFFA /* FriendTableViewCell.xib in Resources */,
 			);
@@ -404,6 +421,7 @@
 				21FD5E93243CC32A000989C2 /* DCLog.m in Sources */,
 				21FD5E92243CC32A000989C2 /* DCLogView.m in Sources */,
 				21C2A2F3244D8762006F1F88 /* LoginViewController.m in Sources */,
+				212A875724ECBF32009A81BC /* TrackerViewController.m in Sources */,
 				21FD5E67243C734F000989C2 /* main.m in Sources */,
 				21902F2724A842150050AFFA /* BaseNavigationController.m in Sources */,
 			);
