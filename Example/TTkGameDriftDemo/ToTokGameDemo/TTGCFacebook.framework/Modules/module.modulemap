@@ -1,0 +1,6 @@
+framework module TTGCFacebook {
+  umbrella header "TTGCFacebook.h"
+
+  export *
+  module * { export * }
+}

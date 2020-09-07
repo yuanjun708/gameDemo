@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DFTLaunchViewController">
+            <connections>
+                <outlet property="navHeight" destination="H2q-Il-ycx" id="z04-oU-1ad"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfj-ym-yAM">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="全民漂移" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHp-Eh-KNF">
+                            <rect key="frame" x="172.5" y="51.5" width="69.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFX-TR-fVh">
+                            <rect key="frame" x="0.0" y="40" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="80X-0u-mE4"/>
+                                <constraint firstAttribute="width" constant="44" id="SdX-Te-4Ae"/>
+                            </constraints>
+                            <state key="normal" image="back"/>
+                            <connections>
+                                <action selector="back:" destination="-1" eventType="touchUpInside" id="bwh-0X-bkh"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="84" id="H2q-Il-ycx"/>
+                        <constraint firstAttribute="bottom" secondItem="sFX-TR-fVh" secondAttribute="bottom" id="TEr-J2-iec"/>
+                        <constraint firstItem="MHp-Eh-KNF" firstAttribute="centerX" secondItem="lfj-ym-yAM" secondAttribute="centerX" id="ib0-7y-fAg"/>
+                        <constraint firstItem="MHp-Eh-KNF" firstAttribute="centerY" secondItem="sFX-TR-fVh" secondAttribute="centerY" id="xUY-qe-nvd"/>
+                        <constraint firstItem="sFX-TR-fVh" firstAttribute="leading" secondItem="lfj-ym-yAM" secondAttribute="leading" id="z62-Ka-HH1"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dY9-I9-rKr">
+                    <rect key="frame" x="153" y="223" width="62" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="创建房间"/>
+                    <connections>
+                        <action selector="createRoom:" destination="-1" eventType="touchUpInside" id="HFX-jD-s2x"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="lfj-ym-yAM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MC7-Vh-HmO"/>
+                <constraint firstItem="lfj-ym-yAM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="de1-qM-G4e"/>
+                <constraint firstAttribute="trailing" secondItem="lfj-ym-yAM" secondAttribute="trailing" id="tz9-wP-Dex"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="145"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="8" height="14.5"/>
+    </resources>
+</document>

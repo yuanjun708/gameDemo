@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-ToTokGameDemo/Pods-ToTokGameDemo-resources.sh
+${PODS_ROOT}/TTkGameDrift/SDK/TTkGameDrift/Core/TTkGame.bundle
+${PODS_ROOT}/TTkGameDrift/SDK/TTkGameDrift/Core/TTGCProgressHUD.bundle
+${PODS_ROOT}/TapjoySDK/TapjoySDK_iOS_v12.6.1/Libraries/Tapjoy.embeddedframework/Resources/TapjoyResources.bundle
+${PODS_ROOT}/TapjoySDK/TapjoySDK_iOS_v12.6.1/Libraries/Tapjoy.embeddedframework/Tapjoy.framework/Versions/A/Resources/TapjoyResources.bundle
+${PODS_ROOT}/TwitterKit5/iOS/TwitterKit.framework/TwitterKitResources.bundle

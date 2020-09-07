@@ -1,0 +1,1 @@
+../../../TTkGameDrift/SDK/TTkGameDrift/SocialLibraries/TTGCTapjoy/TTGCTapjoy.h
