@@ -8,8 +8,8 @@ target 'ToTokGameDemo' do
   # Pods for ToTokGameDemo
   pod 'TTkGameSDK'
   pod 'SDWebImage'
-#  pod 'FBSDKCoreKit' , '5.13.1'
-#  pod 'FBSDKLoginKit' , '5.13.1'
-#  pod 'FBSDKShareKit' , '5.13.1'
+  pod 'FBSDKCoreKit' , '~> 7.1.1'
+  pod 'FBSDKLoginKit' , '~> 7.1.1'
+  pod 'FBSDKShareKit' , '~> 7.1.1'
 
 end

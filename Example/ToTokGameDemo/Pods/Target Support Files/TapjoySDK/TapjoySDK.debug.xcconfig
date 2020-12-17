@@ -1,5 +1,5 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/TapjoySDK
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TapjoySDK/TapjoySDK_iOS_v12.6.1/Libraries/Tapjoy.embeddedframework" "$(PODS_ROOT)/TapjoySDK/**"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TapjoySDK/TapjoySDK_iOS_v12.7.1/Libraries/Tapjoy.embeddedframework" "$(PODS_ROOT)/TapjoySDK/**"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 OTHER_LDFLAGS = $(inherited) -l"c++" -l"sqlite3.0" -l"xml2" -l"z" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMotion" -framework "Foundation" -framework "ImageIO" -framework "MapKit" -framework "MediaPlayer" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit" -weak_framework "AdSupport" -weak_framework "CoreTelephony" -weak_framework "StoreKit"
 PODS_BUILD_DIR = ${BUILD_DIR}

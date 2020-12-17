@@ -99,15 +99,13 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/TTkGameSDK/SDK/TTkGameSDK/Core/TTkGame.bundle"
   install_resource "${PODS_ROOT}/TTkGameSDK/SDK/TTkGameSDK/Core/TTGCProgressHUD.bundle"
-  install_resource "${PODS_ROOT}/TapjoySDK/TapjoySDK_iOS_v12.6.1/Libraries/Tapjoy.embeddedframework/Resources/TapjoyResources.bundle"
-  install_resource "${PODS_ROOT}/TapjoySDK/TapjoySDK_iOS_v12.6.1/Libraries/Tapjoy.embeddedframework/Tapjoy.framework/Versions/A/Resources/TapjoyResources.bundle"
+  install_resource "${PODS_ROOT}/TapjoySDK/TapjoySDK_iOS_v12.7.1/Libraries/Tapjoy.embeddedframework/Tapjoy.framework/Versions/A/Resources/TapjoyResources.bundle"
   install_resource "${PODS_ROOT}/TwitterKit5/iOS/TwitterKit.framework/TwitterKitResources.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/TTkGameSDK/SDK/TTkGameSDK/Core/TTkGame.bundle"
   install_resource "${PODS_ROOT}/TTkGameSDK/SDK/TTkGameSDK/Core/TTGCProgressHUD.bundle"
-  install_resource "${PODS_ROOT}/TapjoySDK/TapjoySDK_iOS_v12.6.1/Libraries/Tapjoy.embeddedframework/Resources/TapjoyResources.bundle"
-  install_resource "${PODS_ROOT}/TapjoySDK/TapjoySDK_iOS_v12.6.1/Libraries/Tapjoy.embeddedframework/Tapjoy.framework/Versions/A/Resources/TapjoyResources.bundle"
+  install_resource "${PODS_ROOT}/TapjoySDK/TapjoySDK_iOS_v12.7.1/Libraries/Tapjoy.embeddedframework/Tapjoy.framework/Versions/A/Resources/TapjoyResources.bundle"
   install_resource "${PODS_ROOT}/TwitterKit5/iOS/TwitterKit.framework/TwitterKitResources.bundle"
 fi
 

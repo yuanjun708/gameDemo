@@ -48,7 +48,7 @@
     manager.roomInviteImageUrl = imgUrl;
     
     //上传我的车辆信息
-    [manager uploadCarInfo:@"my-car" completion:^(BOOL success, NSError * _Nullable error) {
+    [manager uploadCarInfo:@"my-car" withRoomID:@"" completion:^(BOOL success, NSError * _Nullable error) {
         if (success) {
             //upload success
         }
