@@ -1,1 +1,0 @@
-../../../TTkGameSDK/SDK/TTkGameSDK/SocialLibraries/Facebook/TTGCSocialFacebook.h

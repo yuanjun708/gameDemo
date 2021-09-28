@@ -1,6 +1,0 @@
-framework module ToTokGameSDK {
-  umbrella header "ToTokGameSDK.h"
-
-  export *
-  module * { export * }
-}
