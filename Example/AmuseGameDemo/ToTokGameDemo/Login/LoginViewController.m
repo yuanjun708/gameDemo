@@ -16,7 +16,7 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottom;
 
 @property (weak, nonatomic) IBOutlet UIButton *twitterLoginButton;
-@property (weak, nonatomic) IBOutlet UIButton *botimLoginButton;
+@property (weak, nonatomic) IBOutlet UIButton *googleLoginButton;
 @property (weak, nonatomic) IBOutlet UIButton *appleLoginButton;
 @property (weak, nonatomic) IBOutlet UIButton *gamecenterLoginButton;
 @property (weak, nonatomic) IBOutlet UIButton *facebookLoginButton;
@@ -38,7 +38,7 @@
     self.gamecenterLoginButton.layer.cornerRadius = 4.0;
     self.facebookLoginButton.layer.cornerRadius = 4.0;
     self.guestLoginButton.layer.cornerRadius = 4.0;
-    self.botimLoginButton.layer.cornerRadius = 4.0;
+    self.googleLoginButton.layer.cornerRadius = 4.0;
     self.twitterLoginButton.layer.cornerRadius = 4.0;
 }
 
@@ -106,10 +106,10 @@
     }];
 }
 
-- (IBAction)botimLogin:(id)sender {
+- (IBAction)googleLogin:(id)sender {
     TTGCHUD_NO_Stop(@"login...")
     __weak __typeof(self)weakSelf = self;
-    [[TTkGameManager defaultManager] loginWithBotimCompletion:^(id  _Nonnull userInfo, NSError * _Nonnull error) {
+    [[TTkGameManager defaultManager] loginWithGoogleCompletion:^(id  _Nonnull userInfo, NSError * _Nonnull error) {
         if (!error) {
             //login success
             TTGCHUD_SUCCESS(@"success");

@@ -73,6 +73,12 @@
     } Completion:^(id  _Nullable orderInfo, NSError * _Nullable error) {
         if (orderInfo) {
             TTGCHUD_SUCCESS(@"success")
+            TTGCOrderModel *model = orderInfo;
+            NSLog(@"  orderId   : %@", model.orderId);
+            NSLog(@"  orderRef  : %@", model.orderRef);
+            NSLog(@"  channel   : %@", model.channel);
+            NSLog(@"  sku       : %@", model.sku);
+            NSLog(@"  status    : %@", model.status);
         }
         if (error) {
             NSLog(@"pay error : %@",error.userInfo);

@@ -58,11 +58,21 @@
 				<string>twitterkit-YIk9H3bjZyCStVbxleMhMxh8v</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.856117485626-lveaedc0bvq1oanu5nregsfr38e8cu1d</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FacebookAppID</key>
 	<string>606007070767729</string>
+	<key>FacebookClientToken</key>
+	<string>354645f531a02701f3129e2627249dbc</string>
 	<key>FacebookDisplayName</key>
 	<string>AmuseGame</string>
 	<key>LSApplicationQueriesSchemes</key>
