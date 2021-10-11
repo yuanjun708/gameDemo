@@ -1,30 +1,30 @@
 PODS:
-  - AmuseGameSDK (2.0.2):
-    - AmuseGameSDK/Analytics (= 2.0.2)
-    - AmuseGameSDK/AppsFlyer (= 2.0.2)
-    - AmuseGameSDK/Core (= 2.0.2)
-    - AmuseGameSDK/Facebook (= 2.0.2)
-    - AmuseGameSDK/Tapjoy (= 2.0.2)
-    - AmuseGameSDK/Twitter (= 2.0.2)
-  - AmuseGameSDK/Analytics (2.0.2):
+  - AmuseGameSDK (2.1.0):
+    - AmuseGameSDK/Analytics (= 2.1.0)
+    - AmuseGameSDK/AppsFlyer (= 2.1.0)
+    - AmuseGameSDK/Core (= 2.1.0)
+    - AmuseGameSDK/Facebook (= 2.1.0)
+    - AmuseGameSDK/Tapjoy (= 2.1.0)
+    - AmuseGameSDK/Twitter (= 2.1.0)
+  - AmuseGameSDK/Analytics (2.1.0):
     - AmuseGameSDK/Core
     - Firebase/Analytics
     - Firebase/Auth
     - Firebase/DynamicLinks
     - GoogleSignIn
-  - AmuseGameSDK/AppsFlyer (2.0.2):
+  - AmuseGameSDK/AppsFlyer (2.1.0):
     - AmuseGameSDK/Core
     - AppsFlyerFramework
-  - AmuseGameSDK/Core (2.0.2)
-  - AmuseGameSDK/Facebook (2.0.2):
+  - AmuseGameSDK/Core (2.1.0)
+  - AmuseGameSDK/Facebook (2.1.0):
     - AmuseGameSDK/Core
     - FBSDKCoreKit
     - FBSDKLoginKit
     - FBSDKShareKit
-  - AmuseGameSDK/Tapjoy (2.0.2):
+  - AmuseGameSDK/Tapjoy (2.1.0):
     - AmuseGameSDK/Core
     - TapjoySDK
-  - AmuseGameSDK/Twitter (2.0.2):
+  - AmuseGameSDK/Twitter (2.1.0):
     - AmuseGameSDK/Core
     - TwitterKit5 (~> 5.2.0)
   - AppAuth (1.4.0):
@@ -209,7 +209,7 @@ SPEC REPOS:
     - TwitterKit5
 
 SPEC CHECKSUMS:
-  AmuseGameSDK: ce4cfa76248a6601237eb30082171d52cc155744
+  AmuseGameSDK: 0d9023a51acecef7d122a1799a0888188a419641
   AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
   AppsFlyerFramework: 9c37252d3edce38257afc065ad48a48c0f004000
   FBAEMKit: 5de0a7aaa854eec69bb5be20795952a63d38a5f6

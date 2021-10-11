@@ -51,7 +51,21 @@
 }
 
 - (IBAction)buy3:(id)sender {
-    [self buy:@"ttgc_gold_coin_3"];
+    [[TTkGameManager defaultManager] selectPayWithProductSKU:@"com.amuse.game.coin" Name:@"ios(apple&xsolla)" Currency:@"AED" Completion:^(id  _Nullable orderInfo, NSError * _Nullable error) {
+        if (orderInfo) {
+            TTGCHUD_SUCCESS(@"success")
+            TTGCOrderModel *model = orderInfo;
+            NSLog(@"  orderId   : %@", model.orderId);
+            NSLog(@"  orderRef  : %@", model.orderRef);
+            NSLog(@"  channel   : %@", model.channel);
+            NSLog(@"  sku       : %@", model.sku);
+            NSLog(@"  status    : %@", model.status);
+        }
+        if (error) {
+            NSLog(@"pay error : %@",error.userInfo);
+            TTGCHUD_HINT([error.userInfo objectForKey:@"errorMsg"]);
+        }
+    }];
 }
 
 - (IBAction)buy4:(id)sender {
