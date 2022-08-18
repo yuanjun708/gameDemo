@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-ToTokGameDemo/Pods-ToTokGameDemo-resources.sh
-${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/TTkGame.bundle
-${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/TTGCProgressHUD.bundle
+${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/G_ICON_B.bundle
+${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/G_ICON_ProgressHUD.bundle
+${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/DACON.bundle
 ${PODS_ROOT}/TwitterKit5/iOS/TwitterKit.framework/TwitterKitResources.bundle

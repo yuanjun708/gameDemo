@@ -43,7 +43,11 @@
 }
 
 - (IBAction)agreement:(id)sender {
-    [[TTkGameManager defaultManager] showAgreementView];
+//    [[TTkGameManager defaultManager] showAgreementView];
+//    [[TTkGameManager defaultManager] showMigView];
+    [[TTkGameManager defaultManager] loginWithCustomUICompletion:^(id  _Nullable userInfo, NSError * _Nullable error) {
+        
+    }];
 }
 
 - (IBAction)appleLogin:(id)sender {

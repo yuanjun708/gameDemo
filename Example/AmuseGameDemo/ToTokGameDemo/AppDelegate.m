@@ -21,7 +21,16 @@
     
     // set SDK Api Enviroment
     [[TTkGameManager defaultManager] setServerDomainTest];
-    [[TTkGameManager defaultManager] setPayEnvironmentTest];
+    [[TTkGameManager defaultManager] setPEnvTest];
+    
+//    [[TTkGameManager defaultManager] setServerDomainProduction];
+//    [[TTkGameManager defaultManager] setPEnvProduction];
+        
+        
+    // launch SDK pro
+//    NSString *appId = @"zQLMY76e";
+//    NSString *appSecret = @"d2611925e222742f4221dad07e331fa2";
+//    NSString *gameid = @"402624012582739969";
     
     // open log
     [[TTkGameManager defaultManager] openLogInfo];

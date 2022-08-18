@@ -41,7 +41,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupUI];
-    [[TTkGameManager defaultManager] setPayEnvironmentTest];
+    [[TTkGameManager defaultManager] setPEnvTest];
     [self showLoginView];
     
     [[TTkGameManager defaultManager] accountKickedNotification:^(NSString * _Nullable information) {

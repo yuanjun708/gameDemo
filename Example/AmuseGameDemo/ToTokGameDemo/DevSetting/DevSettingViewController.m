@@ -40,7 +40,7 @@
     } else {
         self.domainStatus.text = @"pro";
     }
-    int pay = [[TTkGameManager defaultManager] getPayEnvironment];
+    int pay = [[TTkGameManager defaultManager] getPEnv];
     if (pay == 2) {
         self.payStatus.text = @"test";
     } else {
@@ -65,11 +65,11 @@
 - (IBAction)paySetting:(id)sender {
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Tips" message:@"Please select In-App Purchase environment" preferredStyle:UIAlertControllerStyleActionSheet];
     [alertController addAction:[UIAlertAction actionWithTitle:@"Test" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        [[TTkGameManager defaultManager] setPayEnvironmentTest];
+        [[TTkGameManager defaultManager] setPEnvTest];
         [self setupUI];
     }]];
     [alertController addAction:[UIAlertAction actionWithTitle:@"Production" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        [[TTkGameManager defaultManager] setPayEnvironmentProduction];
+        [[TTkGameManager defaultManager] setPEnvProduction];
         [self setupUI];
     }]];
     [alertController addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleDefault handler:nil]];

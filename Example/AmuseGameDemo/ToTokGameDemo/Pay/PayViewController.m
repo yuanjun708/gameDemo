@@ -51,7 +51,7 @@
 }
 
 - (IBAction)buy3:(id)sender {
-    [[TTkGameManager defaultManager] selectPayWithProductSKU:@"com.amuse.game.coin" Name:@"ios(apple&xsolla)" Currency:@"AED" Completion:^(id  _Nullable orderInfo, NSError * _Nullable error) {
+    [[TTkGameManager defaultManager] selectBWithProductSKU:@"com.amuse.game.coin" Name:@"ios(apple&xsolla)" Currency:@"AED" Completion:^(id  _Nullable orderInfo, NSError * _Nullable error) {
         if (orderInfo) {
             TTGCHUD_SUCCESS(@"success")
             TTGCOrderModel *model = orderInfo;

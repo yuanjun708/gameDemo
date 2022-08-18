@@ -22,9 +22,10 @@ NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, TTGCOderStatus) {
     TTGCOrderStatus_ProductQuerying          = 1, // order querying
     TTGCOrderStatus_Generating               = 2, // order init
-    TTGCOrderStatus_ProductPurchasing        = 3, // order in trading progress
-    TTGCOrderStatus_ProductPurchased         = 4, // order purchased
-    TTGCOrderStatus_ReceiptChecking          = 5, // order verifying
+    TTGCOrderStatus_Generated                = 3, // order init success
+    TTGCOrderStatus_ProductPurchasing        = 4, // order in trading progress
+    TTGCOrderStatus_ProductPurchased         = 5, // order purchased
+    TTGCOrderStatus_ReceiptChecking          = 6, // order verifying
 };
 
 /**
@@ -44,22 +45,24 @@ typedef NS_ENUM(NSInteger, TTGCTrackEvent) {
     TTGCTrackEvent_Other             = 11, // other event
 };
 
+#define TTGCNotificationOrderCallBack        @"sec_club_notification_order_callback"
+
 /**
  *  track event param keys
  */
-#define TTGCTrackParamLaunchFirst            @"af_launch_first"
-#define TTGCTrackParamUserUid                @"af_user_uid"
-#define TTGCTrackParamUserType               @"af_user_type"
-#define TTGCTrackParamActivityId             @"af_activity_id"
-#define TTGCTrackParamActivityAction         @"af_activity_action"
+#define TTGCTrackParamLaunchFirst            @"secl_launch_first"
+#define TTGCTrackParamUserUid                @"secl_user_uid"
+#define TTGCTrackParamUserType               @"secl_user_type"
+#define TTGCTrackParamActivityId             @"secl_activity_id"
+#define TTGCTrackParamActivityAction         @"secl_activity_action"
 
-#define TTGCTrackParamGuideId                @"af_tutorial_id"
-#define TTGCTrackParamGuideSuccess           @"af_success"
-#define TTGCTrackParamGuideDetail            @"af_tutorial_detail"
+#define TTGCTrackParamGuideId                @"secl_tutorial_id"
+#define TTGCTrackParamGuideSuccess           @"secl_success"
+#define TTGCTrackParamGuideDetail            @"secl_tutorial_detail"
 
-#define TTGCTrackParamRewardId               @"af_reward_id"
-#define TTGCTrackParamUserVip                @"af_user_vip"
-#define TTGCTrackParamAdId                   @"af_ad_id"
+#define TTGCTrackParamRewardId               @"secl_reward_id"
+#define TTGCTrackParamUserVip                @"secl_user_vip"
+#define TTGCTrackParamAdId                   @"secl_ad_id"
 
 
 /**
@@ -132,6 +135,14 @@ typedef void (^TTGCSocialSystemPhotoCompletionHandler)(id _Nullable mediaInfo, N
  *  @param error error message
  */
 typedef void (^TTGCLogoutCompleteHandler)(BOOL success, NSError *_Nullable error);
+
+/**
+ *  Delete account callback
+ *
+ *  @param success <BOOL>
+ *  @param error error message
+ */
+typedef void (^TTGCDeleteCompleteHandler)(BOOL success, NSError *_Nullable error);
 
 /**
  *  Account Kicked Notification

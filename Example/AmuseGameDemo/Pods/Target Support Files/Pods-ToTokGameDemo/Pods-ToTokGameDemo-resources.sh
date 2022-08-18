@@ -97,13 +97,15 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/TTkGame.bundle"
-  install_resource "${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/TTGCProgressHUD.bundle"
+  install_resource "${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/G_ICON_B.bundle"
+  install_resource "${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/G_ICON_ProgressHUD.bundle"
+  install_resource "${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/DACON.bundle"
   install_resource "${PODS_ROOT}/TwitterKit5/iOS/TwitterKit.framework/TwitterKitResources.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/TTkGame.bundle"
-  install_resource "${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/TTGCProgressHUD.bundle"
+  install_resource "${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/G_ICON_B.bundle"
+  install_resource "${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/G_ICON_ProgressHUD.bundle"
+  install_resource "${PODS_ROOT}/AmuseGameSDK/SDK/AmuseGameSDK/Core/DACON.bundle"
   install_resource "${PODS_ROOT}/TwitterKit5/iOS/TwitterKit.framework/TwitterKitResources.bundle"
 fi
 
