@@ -141,10 +141,6 @@
 	<string>YIk9H3bjZyCStVbxleMhMxh8v</string>
 	<key>TwitterConsumerSecret</key>
 	<string>1EDCIg71MsuR0E9OKOcCxyE6JSgeMwQo7bMsv0Xjh6JidK1m50</string>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>remote-notification</string>
-	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
